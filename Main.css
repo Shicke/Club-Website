@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+	.nav a{
+		width: 100%;
+	}
+}
+
+
+
+body {
+    /*background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQL6AAL2-cF9h_HjBV4Z9JFbY5zTL56DhPfxuJQp1ae7joU7atS1g");
+    background-size: 1000px 1000px;
+    background-repeat: no-repeat;*/
+}
+h1 {
+    color: maroon;
+    margin-left: 0px;
+} 
+p{
+	font-family:cursive;
+	colour:blue;
+}
+
+/* The difference between class and id is that classes can 
+have more than one element inside whereas an id should belong to only one particular element
+In CSS, use .class_name to select your class and #id_name to select specific id*/
+
+.nav a/*a is the selector*/{
+	color: blue;
+	text-decoration: :none;
+	float: left;
+	width: 8em; /*em is another unit of measurement*/
+	height: 30px;
+
+
+}
